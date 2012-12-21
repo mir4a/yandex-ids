@@ -12,15 +12,6 @@ body
     font: 14px/18px "Times New Roman", serif;
 }
 
-
-.b-heading_one
-{
-    font: 36px/52px "Yeseva One", cursive;
-    color: #033;
-    text-align: center;
-    text-shadow: 0 -1px 0 #eee;
-}
-
 .b-heading_one,
 .b-heading_two,
 .b-heading_three,
@@ -48,6 +39,12 @@ body
     font-size: 32px;
     line-height: 46px;
     margin: 30px auto 20px;
+}
+.b-heading_three
+{
+    font-size: 28px;
+    line-height: 38px;
+    margin: 26px auto 18px;
 }
 
 .b-top-menu
@@ -179,14 +176,20 @@ body
     padding-bottom: 7px;
     padding-top: 4px;
     text-transform: uppercase;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    letter-spacing: 0.05em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
 }
 
 .b-stamp {
     position: absolute;
-    left: -33px;
+    left: -46px;
     bottom: -55px;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     border-radius: 80px;
     border: 2px solid rgba(0,74,158,0.75);
 
@@ -289,4 +292,79 @@ body
     display: block;
     width: 100%;
 
+}
+
+
+.b-evolution .b-heading_three
+{
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0,0,0,0.33);
+}
+.b-evolution
+{
+    position: relative;
+    width: 1000px;
+    margin: 40px auto;
+}
+
+.b-evolution__steps
+{
+    position: relative;
+    padding: 0 20px;
+}
+
+.b-evolution__steps .b-list
+{
+    margin: 10px auto 30px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.b-evolution__steps .b-list__item
+{
+    display: inline-block;
+}
+
+.b-evolution__steps .b-link.active
+{
+    border-color: #fff;
+}
+.b-evolution__steps .b-link
+{
+    display: block;
+    width: 82px;
+    height: 82px;
+    background: #4a719c;
+    border: 3px solid transparent;
+    border-radius: 46px;
+    text-indent: -99999px;
+    margin: 0 10px;
+}
+
+.b-evolution .b-description
+{
+    position: relative;
+    margin: 30px auto;
+    display: table;
+}
+
+.b-description .b-heading_four
+{
+    color: #fff;
+    text-shadow: 0 0 2px rgba(0,0,0,0.33);
+    display: table-cell;
+    width: 200px;
+    margin-right: 50px;
+    padding-right: 50px;
+    vertical-align: middle;
+}
+
+.b-description__item
+{
+    display: table-cell;
+    width: 620px;
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
 }
