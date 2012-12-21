@@ -24,3 +24,35 @@ body
     /*width: 150px;*/
     /*height: 150px;*/
 }
+
+.b-about__photo
+{
+    position: relative;
+    width: 175px;
+    height: 200px;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 1px solid #dedede;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+}
+
+.b-about__photo:after
+{
+    content: "";
+    width: 150px;
+    height: 150px;
+    background: #fff;
+    position: absolute;
+    left: -70px;
+    bottom: -80px;
+    border-radius: 100px;
+    display: block;
+}
+.b-about__photo > .b-photo
+{
+    position: relative;
+    margin-left: -15px;
+    /*width: 175px;*/
+    max-width: 200px;
+}
