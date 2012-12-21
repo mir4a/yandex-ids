@@ -49,7 +49,7 @@
 
 function circle() {
     var subtotal = 89;
-    var mp = (2 * (100-subtotal))/100;
+    var mp = (2 * subtotal)/100;
     var c = document.getElementById("ark"); // пошли определять элементы канваса — это  1-й элемент
     if (typeof c.getContext != "undefined") { // в случае если браузер понимает функцию getContext
         var s = c.getContext("2d"),
@@ -64,19 +64,25 @@ function circle() {
             e = false,
             g = true;
         tt.beginPath();
-        tt.strokeStyle = "rgba(150,255,0,0.25)";
-        tt.arc(t, n, f, u, r, g);
-        tt.lineWidth = 30;
+        tt.strokeStyle = "rgba(255,255,255,0.85)";
+        tt.arc(t, n, f, r, u, g);
+        tt.lineWidth = 7;
         tt.stroke();
         tt.closePath();
 
         s.beginPath();
         s.strokeStyle = "rgba(255,0,120,0.25)";
-        s.arc(100, 85, f, u, r, e);
-            s.lineWidth = 60;
-            s.stroke();
-
+        s.arc(t, n, f, r, u, e);
+        s.lineWidth = 7;
+        s.stroke();
         s.closePath();
+
+        s.hover( function(){
+            $(this).strokeStyle = "#fff";
+        });
+        s.hover(function(){
+            $(this).strokeStyle = "rgba(255,0,120,0.25)";
+        });
     }
 }
 

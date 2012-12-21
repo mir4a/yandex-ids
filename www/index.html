@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Задание для ШРИ'13 в Симферополе</title>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="description" content="Some kind of CV rich in visual and text form. Also the test task for UI Development School of Yandex.">
+    <meta name="author" content="Miroslav S. Martynov">
+
+    <!-- Le styles -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 7]>
+    <![endif]-->
+
+    <!--[if IE]>
+    <![endif]-->
+
+
+
+    <!--&lt;!&ndash; Le fav and touch icons &ndash;&gt;-->
+    <!--<link rel="shortcut icon" href="../assets/ico/favicon.ico">-->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">-->
+    <!--<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+</head>
+
+<body>
+<header class="b-header">
+    <nav>
+        <ul class="b-top-menu">
+            <li class="b-top-menu__item"><a class="b-link" href="#top">Кто я такой</a></li>
+            <li class="b-top-menu__item"><a class="b-link" href="#dev">Дарвин был прав!</a></li>
+            <li class="b-top-menu__item"><a class="b-link" href="#info">Я б посоветовал</a></li>
+            <li class="b-top-menu__item"><a class="b-link" href="#additional">О чем я умолчал</a></li>
+            <li class="b-top-menu__item"><a class="b-link" href="#copy">&copy;</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="i-wrap">
+    <div class="b-about">
+        <div class="b-about__info">
+            <dl class="b-quest">
+                <dt class="b-quest__title">1.</dt>
+                <dd class="b-quest__answer" id="fio">Мартынов Мирослав Сергеевич</dd>
+                <dt class="b-quest__title">2.</dt>
+                <dd class="b-quest__answer" id="dob">1985.06.22</dd>
+                <dt class="b-quest__title">3.</dt>
+                <dd class="b-quest__answer" id="city">Донецк</dd>
+            </dl>
+        </div>
+        <div class="b-about__photo"><img class="b-photo" src="i/ava.jpg" alt="my photo" width="200" height="200"></div>
+    </div>
+
+    <div class="b-collapse">
+        <dl class="b-quest">
+            <dt class="b-quest__title">4. Высшее образование</dt>
+            <dd class="b-quest__answer" id="high_school">Донецкий государственный институт искусственного интеллекта, экономический факультет, специальность Международная экономика.</dd>
+            <dt class="b-quest__title">5. Год окончания вуза</dt>
+            <dd class="b-quest__answer" id="graduete">2007</dd>
+            <dt class="b-quest__title">6. Уровень владения английским языком</dt>
+            <dd class="b-quest__answer" id="do_you_english">Сам я оцениваю как pre-intermediate, но достаточно легко вникаю в суть технической документации и могу составлять простые пояснения к своему коду. Был опыт общения с иностранцами не носителями языка, как-то понимали друг-друга.</dd>
+            <dt class="b-quest__title">7. Чего ждешь от участия в ШРИ?</dt>
+            <dd class="b-quest__answer" id="expectations">Прежде всего, участи в ШРИ для меня – это прекрасный шанс систематизировать свои знания и узнать много нового. Следовательно, участие в Школе я расцениваю как огромный шаг вперед на пути к профессионализму. Это ещё и возможность поучиться у ведущих специалистов отрасли. Двумя словами – прокачка мозгов! Вот чего я ожидаю от участия в Школе.</dd>
+            <dt class="b-quest__title">8. Откуда о нас узнал?</dt>
+            <dd class="b-quest__answer" id="source">В прошлом году я участвовал в &laquo;Яслях&raquo; и с тех пор старался следить за командой Яндекса. Этот опыт помог мне разобраться в основах верстки, особенно позиционирования и наследования. Эффект был настолько сильным, что я боюсь предсказывать как повлияет на меня участие в ШРИ. В любом случае было очень круто!</dd>
+            <dt class="b-quest__title">9. Сколько времени готов уделять в стажировке в Яндексе?</dt>
+            <dd class="b-quest__answer" id="internship_period">Для меня вопрос звучит как &laquo;Как сильно ты хочешь получить новые знания и опыт?&raquo;. Очень сильно! Поэтому вопрос решаемый, важно получить хороший результат.</dd>
+        </dl>
+    </div>
+</div>
+
+<div class="b-evolution">
+    <div class="b-evolution__steps">
+        <ul class="b-list">
+            <li class="b-list__item"><a class="b-link" href="#megainfo">Мегаинфо – копирайтер</a></li>
+            <li class="b-list__item"><a class="b-link" href="#inland">Инланд Медиа – дизайнер</a></li>
+            <li class="b-list__item"><a class="b-link" href="#yarr">Фриланс – верстка</a></li>
+            <li class="b-list__item"><a class="b-link" href="#smena">Смена – разработчик интерфейсов</a></li>
+        </ul>
+        <div class="b-description" id="experience">
+            <div class="b-description__item" id="megainfo">
+                <p class="b-text">Свой путь к веб-разработке я начал относительно недавно, но в то же время я долго к этому шел. Пока не пришел в небольшую конторку с невероятным названием «Мегаинфо». Это типичные представители seo-индустрии, которые любят сео-текст, недорогих копирайтеров и отчеты о продвижении. Тем не менее, команда «Меги» помогла мне сделать первые шаги на пути к верстке, хотя начинал я у них как контент-менеджер.</p>
+                <p class="b-text">Уже через несколько месяцев я осознал, что нужно срочно вкладывать деньги и усилия в своё развитие. Возможность познакомиться с версткой представилась на мастер-классе Олега Мохова в Днепре. Там же я впервые услышал о методологии БЭМ. Хотя 90% услышанного я не был в состоянии переварить на тот момент, начало было положено.</p>
+            </div>
+            <div class="b-description__item" id="inland">
+                <p class="b-text">В «Инланд-медию» я пришел уже достаточно опытным дизайнером и три месяца делал только дизайн, а потом ещё и верстку. Вообще-то работать в этой компании было достаточно сложно. В основном из-за отсутствия опытных программистов. Заказов было достаточно много, а выполнять трудоемкий back-end фактически было некому. Да и тяжело развиваться, когда в команде 3 человека, из которых один дизайнер-директор, второй клиент-менеджер, а третий — я.</p>
+                <p class="b-text">Но был и положительный момент, который частично компенсировал отсутствие общения с опытними разработчиками. Я, вместе с моей коллегой, попал в «ясли» Школы верстки, где усвоил некоторые базовые постулаты.</p>
+            </div>
+            <div class="b-description__item" id="yarr">
+                <p class="b-text">Настал кратковременный период фриланса, во время которого я выполнял несколько заданий для разных рекламных агентств. Делал исключительно верстку, немного js и сопряжение с cms wordpress.</p>
+            </div>
+            <div class="b-description__item" id="smena">
+                <p class="b-text">Наконец-то я попал туда куда надо. Совершенно другой уровень идей, совершенно другой подход к задачам. Талантливые дизайнеры и не типичные задания. Да это просто благодатная почва для развития!</p>
+                <p class="b-text">Тут я впервые начал использовать контроль версий. Много задач по js, много верстки, крупные проекты, оптимизация графики и многое другое. Это то чем я сейчас занимаюсь.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="i-level-wrap">
+        <div class="b-level">
+            <canvas class="i-projects">
+                <div class="b-level__up">
+                    <div class="b-dropdown">
+                        <ul class="b-list">
+                            <li class="b-list__item"><a class="b-link__blank" target="_blank" href="http://rails.com.ua">rails.com.ua</a></li>
+                            <li class="b-list__item"><a class="b-link__blank" target="_blank" href="http://art-nataly.com">art-nataly.com</a></li>
+                            <li class="b-list__item"><a class="b-link__blank" target="_blank" href="http://cryo-tm.com.ua">cryo-tm.com.ua</a></li>
+                            <li class="b-list__item"><a class="b-link__blank" target="_blank" href="http://fondsp.dn.ua">fondsp.dn.ua</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="b-level__down"></div>
+            </canvas>
+        </div>
+        <div class="b-level">
+            <canvas class="i-prog-langs">
+                <div class="b-level__up"></div>
+                <div class="b-level__down"></div>
+            </canvas>
+        </div>
+        <div class="b-level">
+            <canvas class="i-envi">
+                <div class="b-level__up">
+                    <span class="b-value__one"></span>
+                </div>
+                <div class="b-level__up">
+                    <span class="b-value__two"></span>
+                </div>
+                <div class="b-level__down">
+                    <span class="b-value__one"></span>
+                </div>
+                <div class="b-level__down">
+                    <span class="b-value__two"></span>
+                </div>
+            </canvas>
+        </div>
+        <div class="b-level">
+            <canvas class="i-collaboration">
+                <div class="b-level__up">
+                    <span class="b-value__one"></span>
+                </div>
+                <div class="b-level__up">
+                    <span class="b-value__two"></span>
+                </div>
+                <div class="b-level__down">
+                    <span class="b-value__one"></span>
+                </div>
+                <div class="b-level__down">
+                    <span class="b-value__two"></span>
+                </div>
+            </canvas>
+        </div>
+    </div>
+</div>
+
+<div class="canvas">
+    <canvas id="ark"></canvas>
+</div>
+
+<div class="i-links" id="info">
+    <ul class="b-list">
+        <li class="b-list__item"><a class="b-link" href="http://codecademy.com/">Codecademy</a></li>
+        <li class="b-list__item"><a class="b-link" href="http://codecademy.com/">Codecademy</a></li>
+        <li class="b-list__item"><a class="b-link" href="http://codecademy.com/">Codecademy</a></li>
+        <li class="b-list__item"><a class="b-link" href="http://codecademy.com/">Codecademy</a></li>
+        <li class="b-list__item"><a class="b-link" href="http://codecademy.com/">Codecademy</a></li>
+        <li class="b-list__item"><a class="b-link" href="http://codecademy.com/">Codecademy</a></li>
+        <li class="b-list__item"><a class="b-link" href="http://codecademy.com/">Codecademy</a></li>
+        <li class="b-list__item"><a class="b-link" href="http://codecademy.com/">Codecademy</a></li>
+    </ul>
+</div>
+
+<div class="i-disclaimer" id="additional">
+    <p class="b-text"></p>
+</div>
+
+<footer class="i-footer">
+    <div class="b-copy" id="copy">
+        <span class="b-text">Evolution icon reference was taken from <a href="http://thenounproject.com/Jakob%20Vogel">thenounproject.com</a></span>
+    </div>
+</footer>
+<script type="text/javascript" src="js/infography.js"></script>
+</body>
+</html>
