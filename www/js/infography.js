@@ -45,7 +45,30 @@
 //// Write "Hello, World!"
 //context.font = "30px Garamond";
 //context.fillText("Hello, World!",15,175);
+var pl = $('.i-projects .b-list'); // селектор для списка проектов
+var pli = ""; // переменная для записи списка проектов
 
+$.getJSON('projects.json', function(data) {
+    var items = [];
+
+    $.each(data, function(key, val) {
+        items.push(val);
+    });
+
+        for (i = 0; i < items.length; i++) {
+            var d = new Date();
+            var dd = items[i].date;
+            d.setTime(Date.parse(dd));
+//            console.log(items[i].url);
+            pli = pli+ '<li class="b-list__item"><a href="'+items[i].url+'" target="_blank" data-anons="'+items[i].description+'" data-complete-date="'+dd+'">'+items[i].name+'</a></li>';
+//            console.log(pli);
+        }
+
+    pl.append(pli);
+
+    });
+
+//console.log(pli);
 
 function circle() {
     var subtotal = 89;
@@ -77,12 +100,12 @@ function circle() {
         s.stroke();
         s.closePath();
 
-        s.hover( function(){
-            $(this).strokeStyle = "#fff";
-        });
-        s.hover(function(){
-            $(this).strokeStyle = "rgba(255,0,120,0.25)";
-        });
+//        s.hover( function(){
+//            $(this).strokeStyle = "#fff";
+//        });
+//        s.hover(function(){
+//            $(this).strokeStyle = "rgba(255,0,120,0.25)";
+//        });
     }
 }
 

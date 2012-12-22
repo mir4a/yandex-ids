@@ -349,22 +349,63 @@ body
     display: table;
 }
 
+.i-semicolon
+{
+    position: relative;
+}
+.i-semicolon:after
+{
+    content: "{";
+    font: 220px/0 "Times New Roman", sans-serif;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 0px;
+    top: -9px;
+    color: rgba(255, 255, 255, 0.2);
+    text-shadow: none;
+}
 .b-description .b-heading_four
 {
     color: #fff;
-    text-shadow: 0 0 2px rgba(0,0,0,0.33);
     display: table-cell;
+    position: relative;
     width: 200px;
     margin-right: 50px;
     padding-right: 50px;
     vertical-align: middle;
+    text-shadow: 0 0 2px rgba(0,0,0,0.33);
 }
 
-.b-description__item
+.b-description__item.active
 {
     display: table-cell;
+}
+.b-description__item .b-text
+{
+    margin: 9px 0;
+    text-indent: 36px;
+}
+.b-description__item
+{
+    display: none;
     width: 620px;
     color: #fff;
     font-size: 13px;
     line-height: 18px;
+}
+
+.b-level .i-canvas
+{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+}
+.b-level
+{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
 }
