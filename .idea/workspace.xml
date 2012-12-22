@@ -23,7 +23,7 @@
       <file leaf-file-name="projects.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/projects.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="0" selection-start="6677" selection-end="6677" vertical-scroll-proportion="0.0">
+            <state line="143" column="27" selection-start="6723" selection-end="6723" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
       <file leaf-file-name="infography.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/js/infography.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="7" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.4323259">
+            <state line="62" column="29" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7477004">
               <folding />
             </state>
           </provider>
@@ -530,14 +530,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/projects.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="6677" selection-end="6677" vertical-scroll-proportion="0.0">
+        <state line="143" column="27" selection-start="6723" selection-end="6723" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/js/infography.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="7" selection-start="1372" selection-end="1372" vertical-scroll-proportion="0.4323259">
+        <state line="62" column="29" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.7477004">
           <folding />
         </state>
       </provider>

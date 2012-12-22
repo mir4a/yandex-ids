@@ -59,8 +59,9 @@ $.getJSON('projects.json', function(data) {
             var d = new Date();
             var dd = items[i].date;
             d.setTime(Date.parse(dd));
+//            console.log(d);
 //            console.log(items[i].url);
-            pli = pli+ '<li class="b-list__item"><a href="'+items[i].url+'" target="_blank" data-anons="'+items[i].description+'" data-complete-date="'+dd+'">'+items[i].name+'</a></li>';
+            pli = pli+ '<li class="b-list__item"><a href="'+items[i].url+'" target="_blank" data-anons="'+items[i].description+'" data-complete-date="'+d+'">'+items[i].name+'</a></li>';
 //            console.log(pli);
         }
 
