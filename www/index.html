@@ -8,7 +8,8 @@
     <meta name="author" content="Miroslav S. Martynov">
 
     <!-- Le styles -->
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">-->
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -42,7 +43,7 @@
             <li class="b-top-menu__item"><a class="b-link_dotted" href="#top">Кто я такой</a></li>
             <li class="b-top-menu__item"><a class="b-link_dotted" href="#dev">Дарвин был прав!</a></li>
             <li class="b-top-menu__item"><a class="b-link_dotted" href="#info">Я б посоветовал</a></li>
-            <li class="b-top-menu__item"><a class="b-link_dotted" href="#additional">О чем я умолчал</a></li>
+            <li class="b-top-menu__item"><a class="b-link_dotted" href="#additional">Мои минусы</a></li>
             <li class="b-top-menu__item"><a class="b-link_dotted" href="#copy">&copy;</a></li>
         </ul>
     </nav>
@@ -90,14 +91,15 @@
     </div>
 </div>
 
-<div class="b-evolution">
+<div id="dev" class="b-evolution">
     <h3 class="b-heading_three">Дарвин был прав</h3>
     <div class="b-evolution__steps">
         <ul class="b-list">
-            <li class="b-list__item"><a class="b-link active" href="#megainfo" data-start-date="10.10.2010" data-end-date="11.09.2011">Мегаинфо – копирайтер</a></li>
-            <li class="b-list__item"><a class="b-link" href="#inland" data-start-date="12.09.2012" data-end-date="15.04.2012">Инланд Медиа – дизайнер</a></li>
-            <li class="b-list__item"><a class="b-link" href="#yarr" data-start-date="15.04.2012" data-end-date="25.06.2012">Фриланс – верстка</a></li>
-            <li class="b-list__item"><a class="b-link" href="#smena" data-start-date="26.06.2012" data-end-date="now">Смена – разработчик интерфейсов</a></li>
+            <li class="b-list__item active"><a class="i-steps b-link" href="#megainfo" data-start-date="10/10/2010" data-end-date="11/09/2011">Мегаинфо – копирайтер</a></li>
+            <li class="b-list__item"><a class="i-steps b-link" href="#inland" data-start-date="12/09/2011" data-end-date="04/15/2012">Инланд Медиа – дизайнер</a></li>
+            <li class="b-list__item"><a class="i-steps b-link" href="#yarr" data-start-date="04/15/2012" data-end-date="06/25/2012">Фриланс – верстка</a></li>
+            <li class="b-list__item"><a class="i-steps b-link" href="#smena" data-start-date="06/26/2012" data-end-date="02/02/2013">Смена – разработчик интерфейсов</a></li>
+            <li class="b-list__item"><a class="i-steps b-link" href="#uisd" data-start-date="02/02/2013" data-end-date="04/01/2013">В недалеком будущем</a></li>
         </ul>
         <div class="b-description" id="experience">
             <h4 class="b-heading_four"><span class="i-semicolon">Впечатления</span></h4>
@@ -116,67 +118,57 @@
                 <p class="b-text">Наконец-то я попал туда куда надо. Совершенно другой уровень идей, совершенно другой подход к задачам. Талантливые дизайнеры и не типичные задания. Да это просто благодатная почва для развития!</p>
                 <p class="b-text">Тут я впервые начал использовать контроль версий. Много задач по js, много верстки, крупные проекты, оптимизация графики и многое другое. Это то чем я сейчас занимаюсь.</p>
             </div>
+            <div class="b-description__item" id="uisd">
+                <p class="b-text">Ниже уровень прокачки, которого я ожидаю достичь после ШРИ. Задача максимум – впитать опыт и знания ведущих разработчиков Яндекса и разобраться в новых для меня технологиях.</p>
+            </div>
         </div>
     </div>
 
     <div class="i-level-wrap">
         <div class="b-level i-projects">
             <div class="b-level__up">
-                <div class="b-dropdown">
-                    <ul class="b-list">
-                        <!--<li class="b-list__item"><a class="b-link__blank" target="_blank" href="http://rails.com.ua">rails.com.ua</a></li>-->
-                        <!--<li class="b-list__item"><a class="b-link__blank" target="_blank" href="http://art-nataly.com">art-nataly.com</a></li>-->
-                        <!--<li class="b-list__item"><a class="b-link__blank" target="_blank" href="http://cryo-tm.com.ua">cryo-tm.com.ua</a></li>-->
-                        <!--<li class="b-list__item"><a class="b-link__blank" target="_blank" href="http://fondsp.dn.ua">fondsp.dn.ua</a></li>-->
-                    </ul>
-                </div>
+                <h5 class="b-heading_five">Опыт разработки</h5>
             </div>
-            <div class="b-level__down"></div>
-            <canvas class="i-canvas"></canvas>
+            <div class="b-level__down">
+                <span class="i-dropdown">
+                    <span class="b-link_dotted">Список проектов</span>
+                    <div class="b-dropdown">
+                        <ul class="b-list">
+
+                        </ul>
+                    </div>
+                </span>
+            </div>
+            <canvas id="projects_canv" class="i-canvas"></canvas>
         </div>
         <div class="b-level i-prog-langs">
-            <div class="b-level__up"></div>
+            <div class="b-level__up"><h5 class="b-heading_five">Javascript</h5></div>
             <div class="b-level__down"></div>
-            <canvas class="i-canvas"></canvas>
+            <canvas id="prog_canv" class="i-canvas"></canvas>
         </div>
         <div class="b-level i-envi">
-            <div class="b-level__up">
-                <span class="b-value__one"></span>
-            </div>
-            <div class="b-level__up">
-                <span class="b-value__two"></span>
-            </div>
-            <div class="b-level__down">
-                <span class="b-value__one"></span>
-            </div>
-            <div class="b-level__down">
-                <span class="b-value__two"></span>
-            </div>
-            <canvas class="i-canvas"></canvas>
+            <div class="b-level__up"><h5 class="b-heading_five">OS X</h5></div>
+            <div class="b-level__down"></div>
+            <canvas id="os_canv" class="i-canvas"></canvas>
         </div>
-            <div class="b-level__up">
-                <div class="b-level i-collaboration">
-                <span class="b-value__one"></span>
-            </div>
-            <div class="b-level__up">
-                <span class="b-value__two"></span>
-            </div>
-            <div class="b-level__down">
-                <span class="b-value__one"></span>
-            </div>
-            <div class="b-level__down">
-                <span class="b-value__two"></span>
-            </div>
-            <canvas class="i-canvas"></canvas>
+        <div class="b-level i-envi">
+            <div class="b-level__up"><h5 class="b-heading_five">Контроль версий</h5></div>
+            <div class="b-level__down"></div>
+            <canvas id="git_canv" class="i-canvas"></canvas>
         </div>
+        <div class="b-level i-collaboration">
+                <div class="b-level__up"><h5 class="b-heading_five">Basecamp</h5></div>
+                <div class="b-level__down"></div>
+                <canvas id="team_canv" class="i-canvas"></canvas>
+        </div>
+
     </div>
 </div>
 
-<div class="canvas">
-    <canvas id="ark"></canvas>
-</div>
+
 
 <div class="i-links" id="info">
+    <h3 class="b-heading_three">Что полезного я читаю:</h3>
     <ul class="b-list">
         <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://codecademy.com/">Codecademy</a></li>
         <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://webdesign.tutsplus.com/">WebDesign tuts+</a></li>
@@ -185,8 +177,9 @@
         <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://w3.org/">w3org</a></li>
         <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://www.creativesandbox.com/">Google Creative Sandbox</a></li>
         <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://www.html5rocks.com/ru/">Html 5 Rocks!w!</a></li>
-        <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://hmtlbook.ru/">Htmlbook</a></li>
+        <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://htmlbook.ru/">Htmlbook</a></li>
         <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://paulirish.com/">Paul Irish</a></li>
+        <li class="b-list__item"><a class="b-link_blank" target="_blank" href="http://gskinner.com/RegExr/">примеры регулярки</a></li>
     </ul>
 </div>
 

@@ -10,6 +10,11 @@ body
 {
     background: #4e759f url("../i/bg-01.jpg") no-repeat 50% 0;
     font: 14px/18px "Times New Roman", serif;
+    height: 3210px;
+    margin: 0;
+    max-height: 3220px;
+    padding: 0;
+    position: relative;
 }
 
 .b-heading_one,
@@ -46,6 +51,18 @@ body
     line-height: 38px;
     margin: 26px auto 18px;
 }
+.b-heading_four
+{
+    font-size: 22px;
+    line-height: 30px;
+    margin: 20px auto 14px;
+}
+.b-heading_five
+{
+    font-size: 18px;
+    line-height: 26px;
+    margin: 18px auto 12px;
+}
 
 .b-top-menu
 {
@@ -65,6 +82,7 @@ body
 {
     color: #fff;
     border-bottom: 1px dotted rgba(255,255,255,0.5);
+    text-decoration: none;
 }
 
 .i-wrap:after
@@ -326,7 +344,7 @@ body
     display: inline-block;
 }
 
-.b-evolution__steps .b-link.active
+.b-evolution__steps .active .b-link
 {
     border-color: #fff;
 }
@@ -347,6 +365,7 @@ body
     position: relative;
     margin: 30px auto;
     display: table;
+    height: 190px;
 }
 
 .i-semicolon
@@ -356,12 +375,12 @@ body
 .i-semicolon:after
 {
     content: "{";
-    font: 220px/0 "Times New Roman", sans-serif;
+    font: 180px/0 "Times New Roman", sans-serif;
     position: absolute;
     width: 10px;
     height: 10px;
-    right: 0px;
-    top: -9px;
+    right: 0;
+    top: -3px;
     color: rgba(255, 255, 255, 0.2);
     text-shadow: none;
 }
@@ -372,7 +391,7 @@ body
     position: relative;
     width: 200px;
     margin-right: 50px;
-    padding-right: 50px;
+    padding-right: 70px;
     vertical-align: middle;
     text-shadow: 0 0 2px rgba(0,0,0,0.33);
 }
@@ -393,19 +412,173 @@ body
     color: #fff;
     font-size: 13px;
     line-height: 18px;
+    vertical-align: middle;
+}
+
+.i-level-wrap
+{
+    text-align: center;
 }
 
 .b-level .i-canvas
 {
     position: relative;
-    width: 400px;
-    height: 400px;
+    /*width: 400px;*/
+    /*height: 400px;*/
     z-index: 1;
 }
 .b-level
 {
     position: relative;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 170px;
     display: inline-block;
+    margin-bottom: 60px;
+    padding-top: 40px;
+}
+
+.b-level__up .b-heading_five
+{
+    color: #fff;
+    text-shadow: none;
+}
+.b-level .b-level__up
+{
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.b-level .b-level__down
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.i-dropdown .b-link_dotted:hover
+{
+    border-bottom-color: transparent;
+}
+.i-dropdown .b-link_dotted
+{
+    display: inline;
+    border-bottom: 1px dotted rgba(255,255,255,0.5);
+}
+.b-level .i-dropdown
+{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    position: relative;
+    z-index: 10;
+    padding-bottom: 10px;
+}
+.b-level .i-dropdown:hover > .b-dropdown
+{
+    display: block;
+}
+.b-level .b-dropdown .b-list
+{
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+.b-level .b-dropdown:before
+{
+    content: "";
+    border: 15px solid transparent;
+    border-bottom-color: #fff;
+    position: absolute;
+    top: -20px;
+    left: 45%;
+}
+.b-level .b-dropdown
+{
+    position: absolute;
+    display: none;
+    text-align: left;
+    background: #fff;
+    width: 300px;
+    border-radius: 6px;
+    top: 25px;
+}
+
+.i-projects .b-list__item.active > a
+{
+    color: #002a80;
+    display: inline;
+}
+.i-projects .b-list__item > a:hover
+{
+    border-bottom-color: transparent;
+}
+.i-projects .b-list__item
+{
+    margin-bottom: 4px;
+}
+.i-projects .b-list__item > a
+{
+    display: none;
+    color: #777;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(100,100,100,0.5);
+}
+
+
+.i-links
+{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.i-links .b-heading_three
+{
+    color: #fff;
+    text-shadow: none;
+}
+
+.i-links .b-list .b-link_blank:hover::after
+{
+    content: "_blank";
+    position: absolute;
+    right: -50px;
+    bottom: -3px;
+}
+.i-links .b-list .b-link_blank:hover
+{
+    border-bottom-color: #fff;
+}
+.i-links .b-list .b-link_blank
+{
+    position: relative;
+    color: #dadefd;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.33);
+}
+.i-links .b-list__item
+{
+    margin-bottom: 10px;
+}
+.i-links .b-list
+{
+    text-align: center;
+    list-style: none;
+}
+
+
+.i-footer
+{
+    position: absolute;
+    width: 100%;
+    /*margin: 0 auto;*/
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+
 }
