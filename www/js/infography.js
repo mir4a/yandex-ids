@@ -152,7 +152,7 @@ var step_content = $(".b-description__item");
 
 $.fn.circle = function(subtotal, canvas, index) {
 
-    canvas.width = canvas.width; // перерисовываю канвас
+//    canvas.width = canvas.width; // перерисовываю канвас
 
     var total = 0;
     var st = 0;
@@ -171,6 +171,7 @@ $.fn.circle = function(subtotal, canvas, index) {
         var s = canvas.getContext("2d"),
             tt = canvas.getContext("2d"),
             inn = canvas.getContext("2d"),
+            clear = canvas.getContext("2d"),
             t = canvas.width / 2,
             n = canvas.height / 2,
             f = 60,
@@ -178,6 +179,8 @@ $.fn.circle = function(subtotal, canvas, index) {
             r = Math.PI*mp,
             e = false,
             g = true;
+
+        clear.clearRect(0, 0, 300, 150);
         tt.beginPath();
         tt.strokeStyle = "rgba(255,255,255,0.75)";
         tt.arc(t, n, f, r, u, g);
@@ -202,18 +205,29 @@ $.fn.circle = function(subtotal, canvas, index) {
         inn.stroke();
         inn.closePath();
 
+        if (document.all && document.querySelector && !document.addEventListener) { //детект IE8, подсовываем ему данные в див с позиционированием, проблемы с реализацией текста в канвасе
+//            alert('IE8');
 
+            if (total === 100) {
+                $(canvas).parent().find(".i-iefix").html(st+"%");
+            } else {
+                $(canvas).parent().find(".i-iefix").html(st);
+            }
 
-        inn.font = "56px Yeseva One";
-        inn.textAlign = 'center';
-        inn.fillStyle = "#fff";
-        if (total === 100) {
-            inn.font = "30px Yeseva One";
-            inn.fillText(st + "%",t,n+10);
         } else {
+            inn.font = "56px Yeseva One";
+            inn.textAlign = 'center';
+            inn.fillStyle = "#fff";
+            if (total === 100) {
+                inn.font = "30px Yeseva One";
+                inn.fillText(st + "%",t,n+10);
+            } else {
 
-            inn.fillText(st,t,n+20);
+                inn.fillText(st,t,n+20);
+            }
         }
+
+
     } else {
 //        alert("error");
     }
