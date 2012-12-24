@@ -29,19 +29,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="196" column="420" selection-start="14184" selection-end="14184" vertical-scroll-proportion="-106.24">
+            <state line="29" column="47" selection-start="948" selection-end="948" vertical-scroll-proportion="0.5726316">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="13" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.5925926">
+            <state line="129" column="13" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,8 +111,8 @@
         <option value="$PROJECT_DIR$/www/css/reset.css" />
         <option value="$PROJECT_DIR$/www/projects.json" />
         <option value="$PROJECT_DIR$/www/js/infography.js" />
-        <option value="$PROJECT_DIR$/www/index.html" />
         <option value="$PROJECT_DIR$/www/css/style.css" />
+        <option value="$PROJECT_DIR$/www/index.html" />
       </list>
     </option>
   </component>
@@ -516,16 +516,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
+    <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="196" column="420" selection-start="14184" selection-end="14184" vertical-scroll-proportion="-106.24">
+        <state line="129" column="13" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/style.css">
+    <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="13" selection-start="2269" selection-end="2269" vertical-scroll-proportion="0.5925926">
+        <state line="29" column="47" selection-start="948" selection-end="948" vertical-scroll-proportion="0.5726316">
           <folding />
         </state>
       </provider>
