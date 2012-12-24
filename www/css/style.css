@@ -391,12 +391,12 @@ body
 .i-semicolon:after
 {
     content: "{";
-    font: 180px/0 "Times New Roman", sans-serif;
+    font: 180px/10px "Times New Roman", sans-serif;
     position: absolute;
     width: 10px;
     height: 10px;
-    right: 0;
-    top: -3px;
+    right: 1px;
+    top: -7px;
     color: rgba(255, 255, 255, 0.2);
     text-shadow: none;
 }
