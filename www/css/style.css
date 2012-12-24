@@ -348,15 +348,19 @@ body
 {
     border-color: #fff;
 }
+.b-evolution__steps .b-link > img
+{
+    border-radius: 46px;
+}
 .b-evolution__steps .b-link
 {
     display: block;
     width: 82px;
     height: 82px;
-    background: #4a719c;
+    background: #207598;
     border: 3px solid transparent;
     border-radius: 46px;
-    text-indent: -99999px;
+    /*text-indent: -99999px;*/
     margin: 0 10px;
 }
 

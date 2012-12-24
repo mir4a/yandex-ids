@@ -32,16 +32,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="190" column="16" selection-start="12493" selection-end="12499" vertical-scroll-proportion="-21.12">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="1" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+            <state line="101" column="196" selection-start="6541" selection-end="6541" vertical-scroll-proportion="-14.961538">
               <folding />
             </state>
           </provider>
@@ -50,7 +41,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/www/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.31509846">
+            <state line="361" column="24" selection-start="6455" selection-end="6455" vertical-scroll-proportion="0.45325443">
               <folding />
             </state>
           </provider>
@@ -62,13 +53,6 @@
             <state line="213" column="0" selection-start="0" selection-end="2991" vertical-scroll-proportion="0.0">
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ava.jpg" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/www/i/ava.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -85,13 +69,7 @@
         <entry file="file://$PROJECT_DIR$/www/inspirations/eleks.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="49" column="43" selection-start="3444" selection-end="3450" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1355948424000" expanded="false" signature="2043:2053" placeholder="..." />
-                <marker date="1355948424000" expanded="false" signature="2179:2189" placeholder="..." />
-                <marker date="1355948424000" expanded="false" signature="43154:43195" placeholder="..." />
-                <marker date="1355948424000" expanded="false" signature="43225:43270" placeholder="..." />
-                <marker date="1355948424000" expanded="false" signature="43403:43489" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,6 +80,13 @@
             <state line="62" column="29" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ava.jpg" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/www/i/ava.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -133,8 +118,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -283,35 +270,51 @@
     <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lipton" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../salsa" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="145" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="939" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="939" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="939" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="939" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="145" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="141" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
-      <server id="0fcc0e9e-6bb8-44a2-b196-881d1db2f3a4">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="18162c02-b710-4823-b546-d856dd3f5fe1">
+        <serverdata />
       </server>
-      <server id="6f01960d-08eb-4ce2-8fa0-9af145df05b2">
-        <serverdata>
-          <mappings>
-            <mapping local="$PROJECT_DIR$" />
-          </mappings>
-        </serverdata>
+      <server id="299fbd23-8ce3-4495-9f8c-c3528751cdc1">
+        <serverdata />
+      </server>
+      <server id="30e7a19e-5a49-4f57-ba09-4b7633d2e20c">
+        <serverdata />
+      </server>
+      <server id="47af7899-ac29-4f1b-99e5-614447d28b85">
+        <serverdata />
+      </server>
+      <server id="56203e9f-374a-4693-aa61-49bf6a21363f">
+        <serverdata />
+      </server>
+      <server id="682a24a8-97af-4a77-9be4-2e6fd12226c4">
+        <serverdata />
+      </server>
+      <server id="81e3a9bc-ea6e-4611-b1e1-6797c680431f">
+        <serverdata />
+      </server>
+      <server id="b60381db-dbfa-4989-a4e2-f1aecd9ead7a">
+        <serverdata />
+      </server>
+      <server id="ed8eceef-b75b-4917-80e6-f568acfb82d0">
+        <serverdata />
+      </server>
+      <server id="f3217e61-9e52-464d-bfd9-9196fd5b26c1">
+        <serverdata />
       </server>
     </servers>
   </component>
@@ -373,15 +376,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="CSS-X-Fire" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32709113" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32703003" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32958803" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15781923" sideWeight="0.67290884" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15955175" sideWeight="0.67290884" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -449,16 +452,17 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/www/inspirations/ski.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="29" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/www/inspirations/eleks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="43" selection-start="3444" selection-end="3450" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1355948424000" expanded="false" signature="2043:2053" placeholder="..." />
-            <marker date="1355948424000" expanded="false" signature="2179:2189" placeholder="..." />
-            <marker date="1355948424000" expanded="false" signature="43154:43195" placeholder="..." />
-            <marker date="1355948424000" expanded="false" signature="43225:43270" placeholder="..." />
-            <marker date="1355948424000" expanded="false" signature="43403:43489" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -510,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/css/reset.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="1" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/inspirations/ski.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="29" selection-start="2049" selection-end="2049" vertical-scroll-proportion="0.0">
@@ -527,13 +524,7 @@
     <entry file="file://$PROJECT_DIR$/www/inspirations/eleks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="43" selection-start="3444" selection-end="3450" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1355948424000" expanded="false" signature="2043:2053" placeholder="..." />
-            <marker date="1355948424000" expanded="false" signature="2179:2189" placeholder="..." />
-            <marker date="1355948424000" expanded="false" signature="43154:43195" placeholder="..." />
-            <marker date="1355948424000" expanded="false" signature="43225:43270" placeholder="..." />
-            <marker date="1355948424000" expanded="false" signature="43403:43489" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -553,14 +544,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="16" selection-start="12493" selection-end="12499" vertical-scroll-proportion="-21.12">
+        <state line="101" column="196" selection-start="6541" selection-end="6541" vertical-scroll-proportion="-14.961538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/www/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.31509846">
+        <state line="361" column="24" selection-start="6455" selection-end="6455" vertical-scroll-proportion="0.45325443">
           <folding />
         </state>
       </provider>
