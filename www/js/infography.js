@@ -180,7 +180,30 @@ $.fn.circle = function(subtotal, canvas, index) {
             e = false,
             g = true;
 
+
         clear.clearRect(0, 0, 300, 150);
+
+        if (document.all && document.querySelector && !document.addEventListener) { //детект IE8, подсовываем ему данные в див с позиционированием, проблемы с реализацией текста в канвасе
+//            alert('IE8');
+
+            if (total === 100) {
+                $(canvas).parent().find(".i-iefix").html(st+"%");
+            } else {
+                $(canvas).parent().find(".i-iefix").html(st);
+            }
+
+        } else {
+            inn.font = "56px Yeseva One";
+            inn.textAlign = 'center';
+            inn.fillStyle = "#fff";
+            if (total === 100) {
+                inn.font = "30px Yeseva One";
+                inn.fillText(st + "%",t,n+10);
+            } else {
+
+                inn.fillText(st,t,n+20);
+            }
+        }
         tt.beginPath();
         tt.strokeStyle = "rgba(255,255,255,0.75)";
         tt.arc(t, n, f, r, u, g);
@@ -204,28 +227,6 @@ $.fn.circle = function(subtotal, canvas, index) {
         inn.lineWidth = 1;
         inn.stroke();
         inn.closePath();
-
-        if (document.all && document.querySelector && !document.addEventListener) { //детект IE8, подсовываем ему данные в див с позиционированием, проблемы с реализацией текста в канвасе
-//            alert('IE8');
-
-            if (total === 100) {
-                $(canvas).parent().find(".i-iefix").html(st+"%");
-            } else {
-                $(canvas).parent().find(".i-iefix").html(st);
-            }
-
-        } else {
-            inn.font = "56px Yeseva One";
-            inn.textAlign = 'center';
-            inn.fillStyle = "#fff";
-            if (total === 100) {
-                inn.font = "30px Yeseva One";
-                inn.fillText(st + "%",t,n+10);
-            } else {
-
-                inn.fillText(st,t,n+20);
-            }
-        }
 
 
     } else {
