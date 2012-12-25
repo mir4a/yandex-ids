@@ -162,8 +162,5 @@ pip-log.txt
 # Mac crap
 .DS_Store
 
-www/css/style.css
 
-www/index.html
-
-.idea/workspace.xml
+.idea/
